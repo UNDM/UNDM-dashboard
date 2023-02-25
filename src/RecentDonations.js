@@ -1,4 +1,5 @@
 import DonationRow from "./DonationRow";
+import React from "react";
 
 function RecentDonations(props){
     return props.donations && props.donations.length > 0 ? <div>

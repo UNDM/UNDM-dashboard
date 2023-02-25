@@ -1,3 +1,5 @@
+import React from "react";
+
 const curseWords = ["ass", "fuck", "bitch", "shit", "bastard", "motherfucker", 
 "dick", "asshole", "balls", "hell",
 "asshat", "cum", "jizz", "cumshot", 
