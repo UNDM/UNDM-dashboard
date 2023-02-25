@@ -173,13 +173,13 @@ a {
 
 th {
   font-size: xx-large;
-  background-color: rgba(0, 0, 0, 0.281);
+  background-color: rgba(0, 0, 0, 0.453);
   border-radius: 5px;
   padding: 10px;
 }
 
 td {
-  background-color: rgba(0, 0, 0, 0.281);
+  background-color: rgba(0, 0, 0, 0.453);
   margin: 5px;
   padding: 5px;
   border-radius: 5px;
