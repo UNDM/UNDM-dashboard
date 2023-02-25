@@ -12,7 +12,7 @@ function containsBadWord(message) {
 function DonationRow(props) {
     return <tr>
         <td>
-            <img height={75} width={75} src={props.donation.avatarImageURL}/>
+            <img height={75} width={75} src={props.donation.avatarImageURL} alt="User Profile"/>
         </td>
         <td>
             {props.donation.recipientName}

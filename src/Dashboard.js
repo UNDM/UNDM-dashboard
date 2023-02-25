@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Col, Row } from "react-bootstrap";
-import Countdown from "react-countdown";
-import Leaderboard from "./Leaderboard";
+import { Row } from "react-bootstrap";
+// import Countdown from "react-countdown";
+// import Leaderboard from "./Leaderboard";
 import RecentDonations from "./RecentDonations";
 
 function killdisco() {
@@ -10,7 +10,7 @@ function killdisco() {
 }
 
 function discodisco(){
-    var t = 1;
+    // var t = 1;
     var radius = 150;
     var squareSize = 20;
     var prec = 19.55;
@@ -55,7 +55,7 @@ function discodisco(){
     
     function randomColor(type) {
       var c;
-      if(type == "bright") {
+      if(type === "bright") {
         c = randomNumber(130, 255);
       } else {
         c = randomNumber(110, 190);
