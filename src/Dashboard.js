@@ -93,7 +93,7 @@ class Dashboard extends React.Component{
 
     poll = () => {
         this.setState({pollingCount: this.state.pollingCount + 1, oldDonations: this.state.donations});
-        fetch('https://events.dancemarathon.com/api/events/5128/donations?limit=5')
+        fetch('https://events.dancemarathon.com/api/events/5725/donations?limit=5')
             .then(response => response.json())
             .then(data => {
                 this.setState({donations: data})
